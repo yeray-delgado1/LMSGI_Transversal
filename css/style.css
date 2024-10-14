@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    min-height: 50px;
+}
+
+header nav {
+    float: right;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    float: right;
+    padding: 20px 20px 0 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logo {
+    float: auto;
+    font-weight: bold;
+    color:black;
+    font-size: 1.6em;
+    text-align: left;
+}
+
+h1 { font-size: 2em;}
+
+#hero {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align:center;
+flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
