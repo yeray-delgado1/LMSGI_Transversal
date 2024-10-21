@@ -1,16 +1,18 @@
-body {
-    background-image: url("https://www.google.com/imgres?q=skate%20image%20background%20website&imgurl=https%3A%2F%2Fwww.originoutside.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1900%2Fpublic%2Fmedia-images%2Fhero_img_June_2_web_0.jpg.webp%3Fitok%3DMBzVR6rG&imgrefurl=https%3A%2F%2Fwww.originoutside.com%2Finsights%2Fskateboarding-as-a-tool-for-social-change-in-indigenous-communities&docid=7hT-1IRzA_eWRM&tbnid=WijAwoIhkr6LdM&vet=12ahUKEwiglPrl7p6JAxUMVqQEHbcpHmEQM3oECEkQAA..i&w=1900&h=966&hcb=2&ved=2ahUKEwiglPrl7p6JAxUMVqQEHbcpHmEQM3oECEkQAA");
+body{
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 30px 20px 30px;
 }
+    
+
 header {
     margin: auto;
-    background-color: rgb(169, 168, 224);
-    margin-left: 15px;
-    margin-right: 15px;
+    background-color: rgb(226, 226, 226);
+
 
 }
 
 .container {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     overflow: hidden;
     padding: 0px;
@@ -54,7 +56,6 @@ h1 {
 
 #hero {
 width: 100%;
-background-image: url(img/bg-img.jpg);
 display: flex;
 align-items: center;
 justify-content: center;

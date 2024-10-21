@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skate | Introducció al món del skate</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0 20px 20px 20px;
+            color:rgb(41, 41, 41);   
+        }
+        .bg-img {
+            position: absolute;
+            opacity: 0.5;
+            width: 100%;
+            z-index: -5;
+        }
+        .container1 {
+            position: relative;
+            font-weight: bold;
+        }
+        .gif {
+            position: relative;
+            margin-left: 15%;
+            margin-right: 15%;
+            width: 70%;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -21,13 +44,18 @@
         </div>
     </header>
     <br>
-    <section id="hero">
-        <h1>Introducció al skate </h1>
+    <div class="container1">
+        <img class="bg-img" src="img/bg-img.jpg" alt="Skate">
+        <section id="hero">
+            <h1>Introducció al skate </h1>
+        </section>
+        <p>El skate és un esport conegut per utilitzar skate o monopatí. 
+            Aquest instrument és una taula que té a la part inferior dos eixos que subjecten dues rodes 
+            cadascun.</p>
         
-    </section>
-    <p>El skate és un esport conegut per utilitzar skate o monopatí. 
-        Aquest instrument és una taula que té a la part inferior dos eixos que subjecten dues rodes 
-        cadascun.</p>
-
+    </div>
+    <br>
+    <img class="gif" src="img/skategif.gif" alt="skate-gif">
+    </body>
 </body>
 </html>
