@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skate | Contacta'ns</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="images/x-icon" href="img/index/skate.ico">
     <style>
@@ -31,31 +32,32 @@
         </div>
     </header>
     <form action="que_en_penses_enviat.html">
-        <label for="fname">Primer nom:</label><br>
+        <h1>Contacta'ns!</h1>
+        <label for="fname">Nom</label><br>
         <input type="text" id="fname" name="fname" placeholder="El teu nom" required><br>
 
-        <label for="email">Correu electrònic:</label><br>
+        <label for="email">Correu electrònic</label><br>
         <input type="email" id="email" name="email" placeholder="usuari@domini.com" required><br>
 
-        <label for="quantity">Edat:</label><br>
-        <input type="number" id="quantity" name="quantity" required min="1" placeholder="La teva edat"><br>
+        <label for="quantity">Edat</label><br>
+        <input type="number" id="quantity" name="quantity" required min="1"><br>
 
-        <br><label for="daw">Què estàs estudiant?</label><br>
+        <label for="daw">Què estàs estudiant?</label><br>
         <input type="radio" id="daw" name="curs" value="DAW" checked>
-        <label for="daw">DAW</label><br>
+        <label for="daw">DAW</label>
         <input type="radio" id="dam" name="curs" value="DAM">
-        <label for="dam">DAM</label><br>
+        <label for="dam">DAM</label>
         <input type="radio" id="asix" name="curs" value="ASIX">
         <label for="asix">ASIX</label><br>
 
 
-        <br><label for="opcions">Quin curs?</label>
+        <label for="opcions">Quin curs?</label><br>
         <select id="opcions" name="opcions">
             <option value="Opcio1" selected>Primer</option>
             <option value="Opcio2">Segon</option>
         </select><br>
 
-        <br><label for="vehicle1"></label>
+        <label for="vehicle1"></label>
         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
         <label for="vehicle1"> I have a bike</label><br>
         <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
@@ -63,10 +65,11 @@
         <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
         <label for="vehicle3"> I have a boat</label><br>
 
+        <label for="textarea">Alguna cosa a afegir?</label>
         <br><textarea name="missatge" id="missatge" placeholder="Què ens vols dir..." rows="10"
             cols="60"></textarea><br>
 
-        <br><input type="submit" value="Submit">
+        <input type="submit" id="send" value="Enviar">
 
     </form>
 </body>

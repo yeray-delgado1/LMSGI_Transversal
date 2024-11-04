@@ -1,7 +1,7 @@
 body{
     margin: auto;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-margin: 0px 30px 20px 30px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    margin: 0px 30px 20px 30px;
 }
     
 
@@ -35,6 +35,7 @@ header nav {
     float: right;
     text-align: center;
     margin: auto;
+    text-transform: uppercase;
 }
 
 
@@ -42,7 +43,7 @@ nav a {
     margin-top: 40px;
     font-weight: bold;
     float: right;
-    padding: 0 25px 0 0;
+    padding: 0 45px 0 0;
     text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -69,3 +70,105 @@ p {
     font-size: 20px;
     text-align: center;
 }
+
+form {
+    box-sizing: border-box;
+    font-size: larger;
+    padding: 1% 0 1% 0;
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+form input {
+    text-align: center;
+    font-size:medium ;
+    transition: all 0.2s ease;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#quantity {
+    width: 3em;
+    height: 1.8em;
+    margin-bottom: 1.5em;
+    
+}
+
+#quantity:focus {
+    font-size: large;
+    width: 3.3em;
+    height: 2em;
+    outline: none;
+    border: 2px solid #007BFF;
+}
+
+#fname {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    height: 1.8em;
+    width: 12%;
+    margin-bottom: 1.2em;
+}
+
+#fname:focus {
+    font-size: large;
+    width: 15%;
+    height: 2em;
+    outline: none;
+    border: 2px solid #007BFF;
+}
+
+#email {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    height: 1.8em;
+    width: 22%;
+    margin-bottom: 1.2em;
+}
+
+#email:focus {
+    font-size: large;
+    width: 25%;
+    height: 2em;
+    outline: none;
+    border: 2px solid #007BFF;
+}
+
+
+#asix {
+    margin-bottom: 1.5em;
+}
+
+#opcions {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    height: 1.8em;
+    width: 5em;
+    margin-bottom: 1.5em;
+}
+
+#vehicle3 {
+    margin-bottom: 1.5em;
+}
+
+#missatge {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: large;
+    height: 7.2em;
+    width: 50%;
+    transition: all 0.2s ease;
+}
+
+#missatge:focus {
+    height: 7.5em;
+    width: 55%;
+    outline: none;
+    border: 2px solid #007BFF;
+}
+
