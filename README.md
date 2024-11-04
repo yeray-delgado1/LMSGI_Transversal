@@ -1,3 +1,3 @@
 # LMSGI_Transversal
-- Valeria Manresa
+- Valèria Manresa
 - Yeray Delgado
