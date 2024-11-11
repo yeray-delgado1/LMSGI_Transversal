@@ -13,13 +13,21 @@
             align-items: center;
             border:1px solid black;
             margin: auto;
-            
+            margin-bottom: 20px;   
         }
+        
         td {
             border:1px solid black;
             text-align: center;
             padding-left: 25px;
             padding-right: 25px;
+            padding-bottom: 25px;
+            padding-top: 25px;
+        }
+        th {
+            text-align: center;
+            border:1px solid black;
+
         }
         p {
             margin: auto;
@@ -32,6 +40,9 @@
         .columna1 {
             text-align: left;
             background-color: rgb(226, 226, 226);
+        }
+        .text {
+            text-align: left;
         }
 
     </style>
@@ -50,25 +61,107 @@
             </nav>
         </div>
     </header>
-    <table>
+    <div style="float:left;">
+    <table style="width: 48%;" align="left">
             <tr>
-            <td class="columna1">
-                <p><img src="img/index/pngwing.com.png"></p>
-                <p>Valèria Manresa</p>
+            <td class="columna1" style="width: 50%;">
+               <p><img src="img/index/pngwing.com.png"></p>
+                <h2><p>Valèria Manresa</p></h2>
+                <p>Apassionat per la programació i el disseny de pàgines web, amb una orientació cap a la creació de solucions 
+                    eficients i adaptades a les necessitats dels usuaris. Amb ganes de posar en pràctica els coneixements adquirits i 
+                    d'aprendre constantment en entorns reals.</p>
                 <p>Informació</p>
-                <p>Informació</p>
-                <br></br>
+                <br>
                 <p><B>Contate</B></p>
                 <li>123 456 789</li>
                 <li>2014_valeria.manresa@iticbcn.cat</li>
                 <li>Clot, Barcelona</li>
                 <br></br>
-                <p><B>Adjectius</B></p>
-                <p>Adjectiu1, adjectiu2, adjectiu3, adjectiu4,</p>
-                <p>adjectiu5 </p>
+                <p><B>Idiomes</B></p>
+                <li class="text">Català: Nadiu</li>
+                <li class="text">Castellà: Nadiu </li>
+                <li class="text">Anglès: B2</li>
+                <p><B>Habilitats tècniques</B></p>
+                <br>
+                <p> <li><B>Llenguatges de programació:</B> HTML, CSS, JavaScript, PHP.</li>
+                    <li><B>Administració de sistemes i xarxes:</B> Configuració de xarxes, gestió de servidors Windows i Linux, protocols 
+                        de seguretat bàsics</li>
+                    <li><B>Bases de dades:</B> MySQL</li>
+                    <li><B>Eines de disseny i prototipatge:</B> Figma, Adobe XD</li></p>
+                    
             </td>
-            <td>Altre Informació</td>
-        </tr>
+            
+        </table>
+    
+        <table style="width: 48%;" align="right">
+           <tr><th colspan="5">Estudis</th></tr>
+           <tr>
+            <th>Any</th>
+            <th>Estudi</th>
+            <th>Centre</th>
+            <th>Ciutat</th>
+            <th>Resultat</th>   
+           </tr>
+           
+           <tr>
+            <th>2024</th>
+            <th>Grau Superior en Desenvolupament d’Apps Web (DIW)</th>
+            <th>Institut TIC</th>
+            <th>Barcelona</th>
+            <th>En curs</th>   
+           </tr> 
+
+           <tr>
+            <th>2022</th>
+            <th>Grau Mitjà en Sistemes Microinformàtics i Xarxes (SMIX)</th>
+            <th>Institut Freta</th>
+            <th>Calella</th>
+            <th>Aprovat amb notable</th>   
+           </tr> 
+
+           <tr>
+            <th>2021</th>
+            <th>Curs de Disseny Web </th>
+            <th>Escola de Disseny ABC</th>
+            <th>Barcelona</th>
+            <th>Certificat obtingut</th>   
+           </tr> 
+           
+        </table>
+        
+        <table style="width: 48%;" align="right">
+            <tr><th colspan="3">Projectes</th></tr>
+           <tr>
+            <th>Nom del Projecte</th>
+            <th>Descripció</th>
+            <th>Tecnologies Utilitzades</th>
+  
+           </tr>
+           
+           <tr>
+            <th>Portfoli Web Personal</th>
+            <th>Disseny d'un lloc web per presentar projectes i habilitats professionals.</th>
+            <th>HTML, CSS, JavaScript</th>
+   
+           </tr> 
+
+           <tr>
+            <th>Gestor de Contingut per Blogs</th>
+            <th>Creació d'un sistema bàsic per publicar articles i gestionar usuaris.</th>
+            <th>PHP, MySQL, Bootstrap</th>
+
+           </tr> 
+
+           <tr>
+            <th>Calculadora de Pressupostos</th>
+            <th>Aplicació per calcular pressupostos de projectes amb interfície personalitzada.</th>
+            <th>JavaScript, CSS</th>
+  
+           </tr> 
+           
+        
     </table>
+    </div>
+    
 </body>
 </html>
