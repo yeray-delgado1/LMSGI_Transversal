@@ -1,0 +1,102 @@
+body {
+    margin: auto;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    margin: 0px 1.88em 1.25em 1.88em;
+    max-width: 100%;
+}
+
+a img {
+    height: 6.25em;
+    max-width: 100%;
+}
+
+header {
+    margin: auto;
+    background-color: rgba(243, 243, 243, 0.6);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+header:hover {
+    box-shadow: 0px 0px 10px rgba(5, 78, 236, 0.4);
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 1.88em;
+    min-height: 3.13em;
+}
+
+.logo {
+    float: left;
+    text-decoration: dashed;
+    font-weight: bold;
+    color: black;
+    font-size: 1.6em;
+    padding-left: 25px;
+}
+
+header nav {
+    float: right;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+nav a {
+    margin-top: 40px;
+    font-weight: bold;
+    float: right;
+    padding: 0 45px 0 0;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: rgb(201, 201, 201);
+}
+
+h1, h2 {
+    color: #222;
+}
+
+.intro {
+    color: #333;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
