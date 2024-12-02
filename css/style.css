@@ -1,4 +1,3 @@
-/* estils generals */
 body {
     margin: auto;
     font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -11,8 +10,6 @@ a img {
     max-width: 100%;
 }
 
-/* Header */
-
 header {
     margin: auto;
     background-color: rgba(243, 243, 243, 0.6);
@@ -24,8 +21,6 @@ header:hover {
     box-shadow: 0px 0px 10px rgba(5, 78, 236, 0.4);
 }
 
-
-/* Container */
 .container {
     position: relative;
     overflow: hidden;
@@ -34,7 +29,6 @@ header:hover {
     min-height: 3.13em;
 }
 
-/* Logo */
 .logo {
     float: left;
     text-decoration: dashed;
@@ -44,7 +38,6 @@ header:hover {
     padding-left: 25px;
 }
 
-/* Nav */
 header nav {
     float: right;
     text-align: center;
@@ -67,7 +60,6 @@ nav a:hover {
     color: rgb(201, 201, 201);
 }
 
-/* Título y párrafos */
 h1 { 
     font-size: 2em;
 }
@@ -77,7 +69,6 @@ p {
     text-align: center;
 }
 
-/* Hero Section */
 #hero {
     width: 100%;
     display: flex;
@@ -87,7 +78,6 @@ p {
     flex-direction: column;
 }
 
-/* Formulario */
 form {
     box-sizing: border-box;
     font-size: larger;
@@ -103,14 +93,12 @@ form:hover {
     box-shadow: 0px 0px 10px rgba(5, 78, 236, 0.4);
 }
 
-/* Inputs de Formulario */
 form input {
     text-align: center;
     font-size: medium;
     transition: all 0.2s ease;
 }
 
-/* Control de número */
 #quantity {
     width: 3em;
     height: 1.8em;
@@ -125,18 +113,35 @@ form input {
     border: 2px solid #007BFF;
 }
 
-#fname, #email {
+#fname {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     height: 1.8em;
     width: 100%;
-    max-width: 7em;
+    max-width: 6em;
     margin-bottom: 1.2em;
     margin-right: 1.2em;
 }
 
-#fname:focus, #email:focus {
+#fname:focus {
     font-size: large;
-    max-width: 8em;
+    max-width: 7em;
+    height: 2em;
+    outline: none;
+    border: 2px solid #007BFF;
+}
+
+#email {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    height: 1.8em;
+    width: 100%;
+    max-width: 13em;
+    margin-bottom: 1.2em;
+    margin-right: 1.2em;
+}
+
+#email:focus {
+    font-size: large;
+    max-width: 18em;
     height: 2em;
     outline: none;
     border: 2px solid #007BFF;
@@ -160,7 +165,6 @@ form input {
     border: 2px solid #007BFF;
 }
 
-/* Botón de enviar */
 #send {
     margin-top: 1em;
     width: 6em;
@@ -175,7 +179,6 @@ form input {
     height: 3.6em;
 }
 
-/* Media queries para dispositivos medianos y pequeños */
 @media (max-width: 900px) {
     body {
         margin: 0px;
@@ -234,237 +237,4 @@ form input {
     p {
         font-size: 1em;
     }
-}
-
-/*body{
-    margin: auto;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    margin: 0px 1.88em 1.25em 1.88em;
-}
-    
-
-header {
-    margin: auto;
-    background-color: rgb(243, 243, 243,0.6);
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-    transition: all 0,2s ease;
-}
-
-header:hover {
-    box-shadow: 0px 0px 10px rgba(5, 78, 236, 0.4);
-}
-
-a img {
-    height: 6.25em;
-}
-
-@media (max-width: 800px) {
-    .gif {
-        width: 320px;
-    }
-}
-
-.container {
-    position: relative;
-    overflow: hidden;
-    padding: 0px;
-    margin: 1.88em;
-    min-height: 3.13em;
-}
-
-.logo {
-    float: left;
-    text-decoration: dashed;
-    font-weight: bold;
-    color:black;
-    font-size: 1.6em;
-    padding-left: 25px;
-}
-
-header nav {
-    float: right;
-    text-align: center;
-    margin: auto;
-    text-transform: uppercase;
-}
-
-
-nav a {
-    margin-top: 40px;
-    font-weight: bold;
-    float: right;
-    padding: 0 45px 0 0;
-    text-align: center;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 17px;
-}
-nav a:hover {
-    color: rgb(201, 201, 201);
-}
-
-h1 { 
-    font-size: 2em;
-}
-
-#hero {
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align:center;
-flex-direction: column;
-}
-
-p {
-    font-size: 1.25em;
-    text-align: center;
-}
-
-form {
-    box-sizing: border-box;
-    font-size: larger;
-    padding: 1% 0 1% 0;
-    margin: 0 auto;
-    width: 60rem;
-    min-height: 44rem;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-}
-
-form:hover {
-    box-shadow: 0px 0px 10px rgba(5, 78, 236, 0.4);
-}
-
-@media (max-width: 800px) {
-    body {
-        margin: 0px;
-        padding: 0%;
-        margin: 15px;
-    }
-
-    form {
-      width: 18rem;
-    }
-    #fname {
-        min-width: 8em;
-    }
-    #fname:focus {
-        max-width: 8em;
-        max-height: 1.8em;
-    }
-    
-    #email {
-        width: 10em;
-    }
-
-    #missatge {
-        max-width: 14em;
-    }
-  }
-
-form input {
-    text-align: center;
-    font-size:medium ;
-    transition: all 0.2s ease;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-#quantity {
-    width: 3em;
-    height: 1.8em;
-    margin-bottom: 1.5em;
-    
-}
-
-#quantity:focus {
-    font-size: large;
-    width: 3.3em;
-    height: 2em;
-    outline: none;
-    border: 2px solid #007BFF;
-}
-
-#fname {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    height: 1.8em;
-    width: 7em;
-    margin-bottom: 1.2em;
-    margin-right: 1.2em;
-}
-
-#fname:focus {
-    font-size: large;
-    width: 8em;
-    height: 2em;
-    outline: none;
-    border: 2px solid #007BFF;
-}
-
-#email {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    height: 1.8em;
-    width: 13em;
-    margin-bottom: 1.2em;
-}
-
-#email:focus {
-    font-size: large;
-    width: 16em;
-    height: 2em;
-    outline: none;
-    border: 2px solid #007BFF;
-}
-
-
-#asix {
-    margin-bottom: 1.5em;
-}
-
-#opcions {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: medium;
-    height: 1.8em;
-    width: 5em;
-    margin-bottom: 1.5em;
-}
-
-#vehicle3 {
-    margin-bottom: 1.5em;
-}
-
-#missatge {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    padding: 10px;
-    font-size: large;
-    height: 7.2em;
-    width: 33em;
-    transition: all 0.2s ease;
-}
-
-#missatge:focus {
-    height: 7.5em;
-    width: 36em;
-    outline: none;
-    border: 2px solid #007BFF;
-}
-
-#send {
-    margin-top: 1em;
-    width: 6em;
-    height: 3.3em;
-    font-size: large;
-}
-
-#send:hover {
-    border: solid 1px rgb(100, 100, 100);
-    background-color: #9dccfd;
-    width: 6.3em;
-    height: 3.6em;
 }

@@ -6,13 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skate | Yeray Delgado</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="images/x-icon" href="img/index/skate.ico">
+    <style>
+        body {
+            margin: auto;
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            margin: 0px 1.88em 1.25em 1.88em;
+            max-width: 100%;
+        }
+
+        a img {
+            height: 6.25em;
+            max-width: 100%;
+        }
+
+
+        header {
+            margin: auto;
+            background-color: rgba(243, 243, 243, 0.6);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s ease;
+        }
+
+        header:hover {
+            box-shadow: 0px 0px 10px rgba(5, 78, 236, 0.4);
+        }
+
+        .container2 {
+            position: relative;
+            overflow: hidden;
+            padding: 0px;
+            margin: 1.88em;
+            min-height: 3.13em;
+        }
+
+        .logo {
+            float: left;
+            text-decoration: dashed;
+            font-weight: bold;
+            color: black;
+            font-size: 1.6em;
+            padding-left: 25px;
+        }
+
+        header nav {
+            float: right;
+            text-align: center;
+            margin: auto;
+            text-transform: uppercase;
+        }
+
+        nav a {
+            margin-top: 40px;
+            font-weight: bold;
+            float: right;
+            padding: 0 45px 0 0;
+            text-align: center;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            color: rgb(201, 201, 201);
+        }
+
+        .container {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        caption {
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="container2">
             <a href="index.html"> <img src="img/index/pngwing.com.png" alt="Logo Skate"></a>
             <nav class="nav">
                 <a href="que_en_penses.html">Contacta'ns</a>
@@ -24,6 +122,100 @@
             </nav>
         </div>
     </header>
+        <div class="container">
+            <h1>Portfoli Personal</h1>
+
+            <section>
+                <h2>Sobre mi</h2>
+                <p>Hola, sóc el Yeray Delgado i soc un apassionat de l'informàtica. M'encanta aprendre coses noves i
+                    treballar en projectes
+                    interessants que m'ajudin a fomentar i treballar aquesta passió per a, en un futur, poder viure
+                    sobre això 😊</p>
+            </section>
+
+            <section>
+                <h2>Estudis</h2>
+                <table>
+                    <caption>La meva trajectòria educativa</caption>
+                    <thead>
+                        <tr>
+                            <th>Any</th>
+                            <th>Estudis</th>
+                            <th>Centre</th>
+                            <th>Ciutat</th>
+                            <th>Comentaris</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024</td>
+                            <td>Desenvolupament d'Aplicacions Web</td>
+                            <td>ITIC de Barcelona</td>
+                            <td>Barcelona</td>
+                            <td>Curs actual</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>Desenvolupament d'Aplicacions Multiplataforma</td>
+                            <td>Institut Caparrella</td>
+                            <td>Lleida</td>
+                            <td>Vaig començar el curs però a febrer el vaig haver de deixar per temes personals</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>Sistemes Microinformàtics i Xarxes</td>
+                            <td>Institut Xarxa</td>
+                            <td>Berga</td>
+                            <td>Grau mig d'informàtica, sense problemes</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>ESO</td>
+                            <td>Institut Serra de Noet</td>
+                            <td>Berga</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Projectes</h2>
+                <table>
+                    <caption>Alguns projectes destacats</caption>
+                    <thead>
+                        <tr>
+                            <th>Nom del projecte</th>
+                            <th>Descripció</th>
+                            <th>Any</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Web</td>
+                            <td>Projecte de la creació d'una pàgina web sobre el món del Skate.</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Creació del 2048</td>
+                            <td>Desenvolupament del joc 2048 amb Java.</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>Creació de Web amb Wordpress</td>
+                            <td>Projecte on vaig crear una pàgina web funcional per a la cooperativa del centre al grau
+                                mig.</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>Blog tècnic</td>
+                            <td>Un blog sobre un projecte d'empresa que vam fer a la ESO.</td>
+                            <td>2020</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
 </body>
 
 </html>
