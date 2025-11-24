@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        .nav-container {
+            width: 100%;
+            background-color: #222;
+        }
+
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 0;
+            justify-content: center;
+        }
+
+        .nav li {
+            display: flex;
+            align-items: center;
+        }
+        .nav li:not(:last-child)::after {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 20px;
+            background-color: #f4f4f4;
+            margin: 0 15px;
+        }
+
+        .nav li a {
+            display: block;
+            padding: 15px 10px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        
+    </style>
 </head>
 <body>
-    
+<main>
+        <div class="info-historia">
+            <h2>En aquesta pàgina es proporcionen enllaços per poder veure els CV dels creadors d'aquesta pàgina web.</h2>
+    <div class="nav-container">
+        <nav class="nav">
+            <ul>
+                <li><a href="pau.html">CV Pau</a></li>
+                <li><a href="yeray.html">CV Yeray</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>
