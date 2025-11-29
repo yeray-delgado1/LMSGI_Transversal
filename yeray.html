@@ -3,7 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>Document</title>
+    <style>
+        body {
+            margin: auto;
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            margin: 0px 1.88em 1.25em 1.88em;
+            max-width: 100%;
+        }
+
+        a img {
+            height: 6.25em;
+            max-width: 100%;
+        }
+
+
+        header {
+            margin: auto;
+            background-color: rgba(243, 243, 243, 0.6);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s ease;
+        }
+
+        header:hover {
+            box-shadow: 0px 0px 10px rgba(5, 78, 236, 0.4);
+        }
+
+        .container2 {
+            position: relative;
+            overflow: hidden;
+            padding: 0px;
+            margin: 1.88em;
+            min-height: 3.13em;
+        }
+
+        .logo {
+            float: left;
+            text-decoration: dashed;
+            font-weight: bold;
+            color: black;
+            font-size: 1.6em;
+            padding-left: 25px;
+        }
+
+        .nav-container {
+            width: 100%;
+            background-color: #222;
+            margin-bottom: 40px;
+        }
+
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .nav li a {
+            display: block;
+            padding: 15px 10px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .nav li a:hover {
+            color: #00b7ff;
+        }
+
+        .container {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        caption {
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+
 </head>
 <body>
     <header>
@@ -19,5 +126,100 @@
             </nav>
         </div>
     </header>
+    <div class="container">
+            <h1>Portfoli Personal</h1>
+
+            <section>
+                <h2>Sobre mi</h2>
+                <p>Hola, sóc el Yeray Delgado i soc un apassionat de l'informàtica. M'encanta aprendre coses noves i
+                    treballar en projectes
+                    interessants que m'ajudin a fomentar i treballar aquesta passió per a, en un futur, poder viure
+                    sobre això 😊</p>
+            </section>
+
+            <section>
+                <h2>Estudis</h2>
+                <table>
+                    <caption>La meva trajectòria educativa</caption>
+                    <thead>
+                        <tr>
+                            <th>Any</th>
+                            <th>Estudis</th>
+                            <th>Centre</th>
+                            <th>Ciutat</th>
+                            <th>Comentaris</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2025</td>
+                            <td>Desenvolupament d'Aplicacions Web</td>
+                            <td>ITIC de Barcelona</td>
+                            <td>Barcelona</td>
+                            <td>Primer curs</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>Desenvolupament d'Aplicacions Web</td>
+                            <td>ITIC de Barcelona</td>
+                            <td>Barcelona</td>
+                            <td>Primer curs</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>Desenvolupament d'Aplicacions Multiplataforma</td>
+                            <td>Institut Caparrella</td>
+                            <td>Lleida</td>
+                            <td>Vaig començar el curs però a febrer el vaig haver de deixar per temes personals</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>Sistemes Microinformàtics i Xarxes</td>
+                            <td>Institut Xarxa</td>
+                            <td>Berga</td>
+                            <td>Grau mig d'informàtica, sense problemes</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>ESO</td>
+                            <td>Institut Serra de Noet</td>
+                            <td>Berga</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Experiència laboral</h2>
+                <table>
+                    <caption>La meva experiència laboral</caption>
+                    <thead>
+                        <tr>
+                            <th>Lloc de treball</th>
+                            <th>Responsabilitats</th>
+                            <th>Duració</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mosso de magatzem</td>
+                            <td>Càrrega i descàrrega de camions, manipulació de mercancia, manipulació d'enviaments i classificació de la paqueteria.</td>
+                            <td>04/25 | 10/25</td>
+                        </tr>
+                        <tr>
+                            <td>Auxiliar de caixa</td>
+                            <td>Atenció al client, control de la caixa i dels diners que entren i surten d'ella, realitzar el tancament i l'arqueig de la caixa, mantenir la zona del treball neta, etc.</td>
+                            <td>09/24 | 10/24</td>
+                        </tr>
+                        <tr>
+                            <td>Taquiller</td>
+                            <td>Atenció als clients, maneig de caixa registradora i TPV, realitzar seguiment del stock dels productes, neteja del recinte i del lloc de treball, etc.</td>
+                            <td>06/2023 | 09/2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
 </body>
 </html>
