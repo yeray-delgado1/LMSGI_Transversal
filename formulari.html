@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulari</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="historia.html">Història</a></li>
+                    <li><a href="competitiu.html">Competitiu</a></li>
+                    <li><a href="temporades.html">Galeria de temporades</a></li>
+                    <li><a href="nosaltres.html">Nosaltres</a></li>
+                    <li><a href="formulari.html">Formulari</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="survey-container">
+            <form class="survey-form" action="que_en_penses_enviat.html" method="get">
+                <h1>Formulari: Què en penses de Fortnite?</h1>
+
+                <label for="nom">Nom i cognoms</label>
+                <input type="text" id="nom" name="nom" placeholder="El teu nom" required>
+
+                <label for="email">Correu electrònic</label>
+                <input type="email" id="email" name="email" placeholder="usuari@domini.com" required>
+
+                <label>Has jugat a Fortnite?</label>
+                <div class="radios">
+                    <label><input type="radio" name="jugat" value="si" checked> Sí</label>
+                    <label><input type="radio" name="jugat" value="no"> No</label>
+                </div>
+
+                <label for="hores">Quantes hores jugues aproximadament per setmana?</label>
+                <input type="number" id="hores" name="hores" min="0" max="168" placeholder="Ex: 5">
+
+                <label>Plataforma(s) que utilitzes</label>
+                <div class="checkboxes">
+                    <label><input type="checkbox" name="plataforma" value="PC"> PC</label>
+                    <label><input type="checkbox" name="plataforma" value="PS"> PlayStation</label>
+                    <label><input type="checkbox" name="plataforma" value="Xbox"> Xbox</label>
+                    <label><input type="checkbox" name="plataforma" value="Switch"> Switch</label>
+                    <label><input type="checkbox" name="plataforma" value="Mobil"> Mòbil</label>
+                </div>
+
+                <label for="temporada">Quina és la teva temporada favorita?</label>
+                <select id="temporada" name="temporada">
+                    <option value="1">Temporada 1</option>
+                    <option value="2">Temporada 2</option>
+                    <option value="3">Temporada 3</option>
+                    <option value="4">Temporada 4</option>
+                    <option value="5">Temporada 5</option>
+                    <option value="6">Temporada 6</option>
+                    <option value="7">Temporada 7</option>
+                    <option value="8">Temporada 8</option>
+                    <option value="9">Temporada 9</option>
+                    <option value="x">Temporada X</option>
+                </select>
+
+                <label for="comentaris">Comentaris / Què t'agrada o no t'agrada?</label>
+                <textarea id="comentaris" name="comentaris" rows="6" placeholder="Explica'ns la teva opinió..."></textarea>
+
+                <label class="consent"><input type="checkbox" name="consent" required> Accepto que les respostes s'enviïn per a ser visualitzades a la pàgina.</label>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-primary">Enviar respostes</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
