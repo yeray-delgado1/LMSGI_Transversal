@@ -44,7 +44,8 @@ main {
     padding: 0 40px;
 }
 
-.info-historia , .premis {
+.info-historia,
+.premis {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -57,8 +58,68 @@ main {
     width: 100%;
     border-collapse: collapse;
 }
-.premis th, .premis td {
+
+.premis th,
+.premis td {
     border: 1px solid #333;
     padding: 10px;
     text-align: left;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+div.gallery {
+    width: 300px;
+    text-align: center;
+    flex: 0 1 30%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+div.gallery h2 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.gallery-link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.gallery-link-container h2 {
+    font-size: 28px;
+    padding: 25px 40px;
+    background-color: #1e1e1e;
+    border: 2px solid #00b7ff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 183, 255, 0.2);
+    max-width: 600px;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.gallery-link-container h2:hover {
+    box-shadow: 0 12px 24px rgba(0, 183, 255, 0.4);
+    transform: translateY(-2px);
 }
